@@ -1,11 +1,10 @@
 #include <iostream>
-#include "Queue.hpp"
+#include "Stack.hpp"
 
 int main()
 {
-    Queue<int> q(5);
-    q.enqueue(1);
-    q.print();
+    Stack<int> stack(5);
+    
 
     return 0;
 }
